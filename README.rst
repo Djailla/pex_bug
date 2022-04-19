@@ -29,3 +29,5 @@ But both fails with ::
     6: pex-test==0.1 requires zc-lockfile==2.0 but zc.lockfile 2.0 was resolved
 
 Issue being wiht ``.`` or ``-`` not matching :(
+
+But it is ok if I run ``pip install -r requirements.txt``
